@@ -17,7 +17,7 @@ public class WebSocketClientActivity extends Activity {
 	private ResultReceiver resultReceiver = new ResultReceiver(new Handler()) {
 		@Override
 		protected void onReceiveResult(final int resultCode, final Bundle resultData) {
-			Toast.makeText(getApplicationContext(), "received message", Toast.LENGTH_LONG).show();
+			Toast.makeText(getApplicationContext(), resultData.getString("message"), Toast.LENGTH_LONG).show();
 		}
 	};
 

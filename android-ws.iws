@@ -72,19 +72,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WebSocketService.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="WebSocketService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/WebSocketService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="63" selection-start="2239" selection-end="2239" vertical-scroll-proportion="0.25980392">
+            <state line="38" column="41" selection-start="1340" selection-end="1347" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebSocketClientHandshaker.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/libs/netty-3.3.1.Final-20120124.010821-4-sources.jar!/org/jboss/netty/handler/codec/http/websocketx/WebSocketClientHandshaker.java">
+      <file leaf-file-name="WebSocketClientActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/WebSocketClientActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="34" selection-start="3593" selection-end="3593" vertical-scroll-proportion="0.0">
+            <state line="49" column="23" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="22" selection-start="375" selection-end="375" vertical-scroll-proportion="0.19762845">
               <folding />
             </state>
           </provider>
@@ -153,15 +162,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OneToOneEncoder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/libs/netty-3.3.1.Final-20120124.010821-4-sources.jar!/org/jboss/netty/handler/codec/oneone/OneToOneEncoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="47" selection-start="2268" selection-end="2268" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -183,11 +183,11 @@
         <option value="$PROJECT_DIR$/src/com/example/WebSocketServerHandler.java" />
         <option value="$PROJECT_DIR$/src/com/example/WebSocketClientHandshaker.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/WebSocketClientActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/WebSocketHandshakeHandler.java" />
         <option value="$PROJECT_DIR$/src/com/example/WebSocketPipelineFactory.java" />
         <option value="$PROJECT_DIR$/src/com/example/WebSocketClientHandler.java" />
         <option value="$PROJECT_DIR$/src/com/example/WebSocketService.java" />
+        <option value="$PROJECT_DIR$/src/com/example/WebSocketClientActivity.java" />
       </list>
     </option>
   </component>
@@ -526,10 +526,11 @@
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295979" sideWeight="0.670446" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32955405" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32955405" sideWeight="0.99933994" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32955405" sideWeight="0.99933994" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -541,7 +542,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Android Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32955405" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968813" sideWeight="0.670446" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32955405" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -605,23 +605,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/libs/netty-3.3.1.Final-20120124.010821-4-sources.jar!/org/jboss/netty/bootstrap/ClientBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="182" column="0" selection-start="7037" selection-end="7037" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/WebSocketHandshakeHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="4" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/WebSocketClientActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="35" selection-start="1457" selection-end="1457" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -712,7 +698,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/WebSocketService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="63" selection-start="2239" selection-end="2239" vertical-scroll-proportion="0.25980392">
+        <state line="38" column="41" selection-start="1340" selection-end="1347" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/WebSocketClientActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="23" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="22" selection-start="375" selection-end="375" vertical-scroll-proportion="0.19762845">
           <folding />
         </state>
       </provider>
